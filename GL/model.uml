@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_YALj8IrYEea4dKSDwvTLgw" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_wCPOwIrYEea4dKSDwvTLgw" name="Client"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_DTcu0IrbEea4dKSDwvTLgw" name="Commander une pizza " URI="">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KSU3YIrZEea4dKSDwvTLgw" name="Consulter la carte"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CJHUkIrZEea4dKSDwvTLgw" name="Livrer chez lui">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_2sC3gIrcEea4dKSDwvTLgw" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_3RzP8IrcEea4dKSDwvTLgw" addition="_H_GbEIraEea4dKSDwvTLgw"/>
+      <include xmi:type="uml:Include" xmi:id="_GhyoMIrdEea4dKSDwvTLgw" addition="_PXn9QIrZEea4dKSDwvTLgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PXn9QIrZEea4dKSDwvTLgw" name="Sélectionner une pizzeria"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_H_GbEIraEea4dKSDwvTLgw" name="Inscription des coordonnées"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_niCLcIrcEea4dKSDwvTLgw" name="Payer"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5ma98IrcEea4dKSDwvTLgw" memberEnd="_5mt44IrcEea4dKSDwvTLgw _5muf8IrcEea4dKSDwvTLgw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5meBQIrcEea4dKSDwvTLgw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5meoUIrcEea4dKSDwvTLgw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5mt44IrcEea4dKSDwvTLgw" name="consulter la carte" type="_KSU3YIrZEea4dKSDwvTLgw" association="_5ma98IrcEea4dKSDwvTLgw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5muf8IrcEea4dKSDwvTLgw" name="client" type="_wCPOwIrYEea4dKSDwvTLgw" association="_5ma98IrcEea4dKSDwvTLgw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6jMIMIrcEea4dKSDwvTLgw" memberEnd="_6jMvQorcEea4dKSDwvTLgw _6jNWUIrcEea4dKSDwvTLgw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6jMvQIrcEea4dKSDwvTLgw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6jMvQYrcEea4dKSDwvTLgw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6jMvQorcEea4dKSDwvTLgw" name="livrer chez lui" type="_CJHUkIrZEea4dKSDwvTLgw" association="_6jMIMIrcEea4dKSDwvTLgw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6jNWUIrcEea4dKSDwvTLgw" name="client" type="_wCPOwIrYEea4dKSDwvTLgw" association="_6jMIMIrcEea4dKSDwvTLgw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Crg6MIrdEea4dKSDwvTLgw" memberEnd="_CrhhQordEea4dKSDwvTLgw _CriIUIrdEea4dKSDwvTLgw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CrhhQIrdEea4dKSDwvTLgw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CrhhQYrdEea4dKSDwvTLgw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CrhhQordEea4dKSDwvTLgw" name="payer" type="_niCLcIrcEea4dKSDwvTLgw" association="_Crg6MIrdEea4dKSDwvTLgw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CriIUIrdEea4dKSDwvTLgw" name="client" type="_wCPOwIrYEea4dKSDwvTLgw" association="_Crg6MIrdEea4dKSDwvTLgw"/>
+  </packagedElement>
+</uml:Model>
