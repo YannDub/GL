@@ -33,4 +33,103 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_CrhhQordEea4dKSDwvTLgw" name="payer" type="_niCLcIrcEea4dKSDwvTLgw" association="_Crg6MIrdEea4dKSDwvTLgw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_CriIUIrdEea4dKSDwvTLgw" name="client" type="_wCPOwIrYEea4dKSDwvTLgw" association="_Crg6MIrdEea4dKSDwvTLgw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_NQvhkIrfEea4dKSDwvTLgw" name="Création du compte">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iN1mkIrfEea4dKSDwvTLgw" name="Enregistrer un compte"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ld-hoIrfEea4dKSDwvTLgw" name="Inscrire ses coordonnées"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_x8Ck0IrfEea4dKSDwvTLgw" name="Valider ses coordonnées">
+      <include xmi:type="uml:Include" xmi:id="_ZYTT0IrgEea4dKSDwvTLgw" addition="_WGPtMIrgEea4dKSDwvTLgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yoxH8IrfEea4dKSDwvTLgw" name="CopyOf_Valider ses coordonnées_1"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_y7GOEIrfEea4dKSDwvTLgw" name="CopyOf_Valider ses coordonnées_2"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_z-UloIrfEea4dKSDwvTLgw" name="Modifier ses coordonnées">
+      <include xmi:type="uml:Include" xmi:id="_ZwdVIIrgEea4dKSDwvTLgw" addition="_WGPtMIrgEea4dKSDwvTLgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3F6osIrfEea4dKSDwvTLgw" name="Accéder à son profil"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WGPtMIrgEea4dKSDwvTLgw" name="Vérifier ses coordonnées"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Rt1_AIrfEea4dKSDwvTLgw" name="Client"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__QCKcIrfEea4dKSDwvTLgw" memberEnd="__QCxgYrfEea4dKSDwvTLgw __QCxgorfEea4dKSDwvTLgw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__QCKcYrfEea4dKSDwvTLgw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__QCxgIrfEea4dKSDwvTLgw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__QCxgYrfEea4dKSDwvTLgw" name="enregistrer un compte" type="_iN1mkIrfEea4dKSDwvTLgw" association="__QCKcIrfEea4dKSDwvTLgw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__QCxgorfEea4dKSDwvTLgw" name="client" type="_Rt1_AIrfEea4dKSDwvTLgw" association="__QCKcIrfEea4dKSDwvTLgw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ACvZwIrgEea4dKSDwvTLgw" memberEnd="_ACwA0orgEea4dKSDwvTLgw _ACwn4IrgEea4dKSDwvTLgw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ACwA0IrgEea4dKSDwvTLgw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ACwA0YrgEea4dKSDwvTLgw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ACwA0orgEea4dKSDwvTLgw" name="inscrire ses coordonnées" type="_ld-hoIrfEea4dKSDwvTLgw" association="_ACvZwIrgEea4dKSDwvTLgw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ACwn4IrgEea4dKSDwvTLgw" name="client" type="_Rt1_AIrfEea4dKSDwvTLgw" association="_ACvZwIrgEea4dKSDwvTLgw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AokDoIrgEea4dKSDwvTLgw" memberEnd="_AokqsorgEea4dKSDwvTLgw _Aokqs4rgEea4dKSDwvTLgw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AokqsIrgEea4dKSDwvTLgw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AokqsYrgEea4dKSDwvTLgw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AokqsorgEea4dKSDwvTLgw" name="accéder à son profil" type="_3F6osIrfEea4dKSDwvTLgw" association="_AokDoIrgEea4dKSDwvTLgw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Aokqs4rgEea4dKSDwvTLgw" name="client" type="_Rt1_AIrfEea4dKSDwvTLgw" association="_AokDoIrgEea4dKSDwvTLgw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YlCq4IrgEea4dKSDwvTLgw" memberEnd="_YlDR8orgEea4dKSDwvTLgw _YlDR84rgEea4dKSDwvTLgw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YlDR8IrgEea4dKSDwvTLgw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YlDR8YrgEea4dKSDwvTLgw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YlDR8orgEea4dKSDwvTLgw" name="vérifier ses coordonnées" type="_WGPtMIrgEea4dKSDwvTLgw" association="_YlCq4IrgEea4dKSDwvTLgw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YlDR84rgEea4dKSDwvTLgw" name="inscrire ses coordonnées" type="_ld-hoIrfEea4dKSDwvTLgw" association="_YlCq4IrgEea4dKSDwvTLgw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_-eez0I4jEea06PtueTR_TA" name="Equipier"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="__UbkYI4jEea06PtueTR_TA" name="Client"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_MV0-II4kEea06PtueTR_TA" name="Prise de commande par un équipier">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VVBtwI4kEea06PtueTR_TA" name="Inscription du menu">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZrwrMI4pEea06PtueTR_TA" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_gVJzUI4kEea06PtueTR_TA" name="Choix &quot;Sans Menu&quot;"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bcLVYI4oEea06PtueTR_TA" name="Choix de la pizza et de sa taille"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wO2TEI4oEea06PtueTR_TA" name="Choix du type de paiement"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SPfG4I4pEea06PtueTR_TA" name="Paiement en CB"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WzNwwI4pEea06PtueTR_TA" name="Choix du menu">
+      <extend xmi:type="uml:Extend" xmi:id="_Zru2AI4pEea06PtueTR_TA" extendedCase="_VVBtwI4kEea06PtueTR_TA" extensionLocation="_ZrwrMI4pEea06PtueTR_TA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dMxGEI4kEea06PtueTR_TA" memberEnd="_dM0wcI4kEea06PtueTR_TA _dM1XgI4kEea06PtueTR_TA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dMy7QI4kEea06PtueTR_TA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dMziUI4kEea06PtueTR_TA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dM0wcI4kEea06PtueTR_TA" name="choix du menu" type="_VVBtwI4kEea06PtueTR_TA" association="_dMxGEI4kEea06PtueTR_TA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dM1XgI4kEea06PtueTR_TA" name="equipier" type="_-eez0I4jEea06PtueTR_TA" association="_dMxGEI4kEea06PtueTR_TA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BEXbgI4lEea06PtueTR_TA" memberEnd="_BEZQsI4lEea06PtueTR_TA _BEZQsY4lEea06PtueTR_TA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BEYpoI4lEea06PtueTR_TA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BEYpoY4lEea06PtueTR_TA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BEZQsI4lEea06PtueTR_TA" name="choix &quot;sans menu&quot;" type="_gVJzUI4kEea06PtueTR_TA" association="_BEXbgI4lEea06PtueTR_TA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BEZQsY4lEea06PtueTR_TA" name="choix du menu" type="_VVBtwI4kEea06PtueTR_TA" association="_BEXbgI4lEea06PtueTR_TA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rdUdwI4oEea06PtueTR_TA" memberEnd="_rdVr4Y4oEea06PtueTR_TA _rdVr4o4oEea06PtueTR_TA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rdVE0I4oEea06PtueTR_TA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rdVr4I4oEea06PtueTR_TA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rdVr4Y4oEea06PtueTR_TA" name="choix de la pizza et de sa taille" type="_bcLVYI4oEea06PtueTR_TA" association="_rdUdwI4oEea06PtueTR_TA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rdVr4o4oEea06PtueTR_TA" name="choix &quot;sans menu&quot;" type="_gVJzUI4kEea06PtueTR_TA" association="_rdUdwI4oEea06PtueTR_TA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XrPk8I4pEea06PtueTR_TA" memberEnd="_XrQzEY4pEea06PtueTR_TA _XrQzEo4pEea06PtueTR_TA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XrQMAI4pEea06PtueTR_TA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XrQzEI4pEea06PtueTR_TA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XrQzEY4pEea06PtueTR_TA" name="choix du menu" type="_WzNwwI4pEea06PtueTR_TA" association="_XrPk8I4pEea06PtueTR_TA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XrQzEo4pEea06PtueTR_TA" name="client" type="__UbkYI4jEea06PtueTR_TA" association="_XrPk8I4pEea06PtueTR_TA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YEJNII4pEea06PtueTR_TA" memberEnd="_YEKbQY4pEea06PtueTR_TA _YEKbQo4pEea06PtueTR_TA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YEJ0MI4pEea06PtueTR_TA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEKbQI4pEea06PtueTR_TA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YEKbQY4pEea06PtueTR_TA" name="choix du type de paiement" type="_wO2TEI4oEea06PtueTR_TA" association="_YEJNII4pEea06PtueTR_TA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YEKbQo4pEea06PtueTR_TA" name="choix du menu" type="_WzNwwI4pEea06PtueTR_TA" association="_YEJNII4pEea06PtueTR_TA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YcdmgI4pEea06PtueTR_TA" memberEnd="_Yce0oI4pEea06PtueTR_TA _Yce0oY4pEea06PtueTR_TA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YceNkI4pEea06PtueTR_TA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YceNkY4pEea06PtueTR_TA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Yce0oI4pEea06PtueTR_TA" name="paiement en cb" type="_SPfG4I4pEea06PtueTR_TA" association="_YcdmgI4pEea06PtueTR_TA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Yce0oY4pEea06PtueTR_TA" name="choix du type de paiement" type="_wO2TEI4oEea06PtueTR_TA" association="_YcdmgI4pEea06PtueTR_TA"/>
+  </packagedElement>
 </uml:Model>
