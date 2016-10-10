@@ -132,4 +132,65 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_Yce0oI4pEea06PtueTR_TA" name="paiement en cb" type="_SPfG4I4pEea06PtueTR_TA" association="_YcdmgI4pEea06PtueTR_TA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Yce0oY4pEea06PtueTR_TA" name="choix du type de paiement" type="_wO2TEI4oEea06PtueTR_TA" association="_YcdmgI4pEea06PtueTR_TA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_f3uzcI8UEeagRJK-ydC0Uw" name="Membre Administrateur"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nfIpsI8UEeagRJK-ydC0Uw" name="CAGeneration">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rVeCEI8UEeagRJK-ydC0Uw" name="Se connecte"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zsf-cI8UEeagRJK-ydC0Uw" name="Chosit mode de rendu">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_P-U1UI8VEeagRJK-ydC0Uw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_71EBAI8UEeagRJK-ydC0Uw" name="Choisit datation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BLZMgI8VEeagRJK-ydC0Uw" name="Enregistrer paramètres"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_M09QoI8VEeagRJK-ydC0Uw" name="Choisit type de diagramme">
+      <extend xmi:type="uml:Extend" xmi:id="_P-OHoI8VEeagRJK-ydC0Uw" extendedCase="_zsf-cI8UEeagRJK-ydC0Uw" extensionLocation="_P-U1UI8VEeagRJK-ydC0Uw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jQRAEI8VEeagRJK-ydC0Uw" name="Chosit le restaurant">
+      <extend xmi:type="uml:Extend" xmi:id="_xMcAAI8VEeagRJK-ydC0Uw" extendedCase="_tkmWoI8VEeagRJK-ydC0Uw" extensionLocation="_xMcnEI8VEeagRJK-ydC0Uw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tkmWoI8VEeagRJK-ydC0Uw" name="Fait des choix optionnels">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xMcnEI8VEeagRJK-ydC0Uw" name="ExtensionPoint1"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_u_akQI8UEeagRJK-ydC0Uw" name="Visiteur"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GIsM8I8VEeagRJK-ydC0Uw" memberEnd="_GI0IwI8VEeagRJK-ydC0Uw _GI0v0I8VEeagRJK-ydC0Uw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GIy6oI8VEeagRJK-ydC0Uw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GIy6oY8VEeagRJK-ydC0Uw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GI0IwI8VEeagRJK-ydC0Uw" name="se connecte" type="_rVeCEI8UEeagRJK-ydC0Uw" association="_GIsM8I8VEeagRJK-ydC0Uw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GI0v0I8VEeagRJK-ydC0Uw" name="visiteur" type="_u_akQI8UEeagRJK-ydC0Uw" association="_GIsM8I8VEeagRJK-ydC0Uw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HU3sMI8VEeagRJK-ydC0Uw" memberEnd="_HU46UY8VEeagRJK-ydC0Uw _HU5hYI8VEeagRJK-ydC0Uw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HU4TQI8VEeagRJK-ydC0Uw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HU46UI8VEeagRJK-ydC0Uw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HU46UY8VEeagRJK-ydC0Uw" name="se connecte" type="_rVeCEI8UEeagRJK-ydC0Uw" association="_HU3sMI8VEeagRJK-ydC0Uw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HU5hYI8VEeagRJK-ydC0Uw" name="membre administrateur" type="_f3uzcI8UEeagRJK-ydC0Uw" association="_HU3sMI8VEeagRJK-ydC0Uw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IGO3sI8VEeagRJK-ydC0Uw" memberEnd="_IGQF0Y8VEeagRJK-ydC0Uw _IGQF0o8VEeagRJK-ydC0Uw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGPewI8VEeagRJK-ydC0Uw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IGQF0I8VEeagRJK-ydC0Uw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IGQF0Y8VEeagRJK-ydC0Uw" name="chosit mode de vision" type="_zsf-cI8UEeagRJK-ydC0Uw" association="_IGO3sI8VEeagRJK-ydC0Uw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IGQF0o8VEeagRJK-ydC0Uw" name="membre administrateur" type="_f3uzcI8UEeagRJK-ydC0Uw" association="_IGO3sI8VEeagRJK-ydC0Uw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JUD8wI8VEeagRJK-ydC0Uw" memberEnd="_JUFK4o8VEeagRJK-ydC0Uw _JUFx8I8VEeagRJK-ydC0Uw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JUFK4I8VEeagRJK-ydC0Uw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JUFK4Y8VEeagRJK-ydC0Uw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JUFK4o8VEeagRJK-ydC0Uw" name="choisit datation" type="_71EBAI8UEeagRJK-ydC0Uw" association="_JUD8wI8VEeagRJK-ydC0Uw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JUFx8I8VEeagRJK-ydC0Uw" name="membre administrateur" type="_f3uzcI8UEeagRJK-ydC0Uw" association="_JUD8wI8VEeagRJK-ydC0Uw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KOMCsI8VEeagRJK-ydC0Uw" memberEnd="_KOPGAY8VEeagRJK-ydC0Uw _KOPtEI8VEeagRJK-ydC0Uw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KOOe8I8VEeagRJK-ydC0Uw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KOPGAI8VEeagRJK-ydC0Uw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KOPGAY8VEeagRJK-ydC0Uw" name="enregistrer paramètres" type="_BLZMgI8VEeagRJK-ydC0Uw" association="_KOMCsI8VEeagRJK-ydC0Uw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KOPtEI8VEeagRJK-ydC0Uw" name="membre administrateur" type="_f3uzcI8UEeagRJK-ydC0Uw" association="_KOMCsI8VEeagRJK-ydC0Uw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wYs18I8VEeagRJK-ydC0Uw" memberEnd="_wYurIo8VEeagRJK-ydC0Uw _wYv5QI8VEeagRJK-ydC0Uw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wYurII8VEeagRJK-ydC0Uw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wYurIY8VEeagRJK-ydC0Uw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wYurIo8VEeagRJK-ydC0Uw" name="fait des choix optionnels" type="_tkmWoI8VEeagRJK-ydC0Uw" association="_wYs18I8VEeagRJK-ydC0Uw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wYv5QI8VEeagRJK-ydC0Uw" name="membre administrateur" type="_f3uzcI8UEeagRJK-ydC0Uw" association="_wYs18I8VEeagRJK-ydC0Uw"/>
+  </packagedElement>
 </uml:Model>
