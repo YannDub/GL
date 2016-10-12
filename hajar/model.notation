@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yhOf0JBhEeaFUfEgOgSL-g" type="UseCase" name="Stock" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_5irecJBjEeaFUfEgOgSL-g" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5isFgJBjEeaFUfEgOgSL-g" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5isFgZBjEeaFUfEgOgSL-g" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5isFgpBjEeaFUfEgOgSL-g" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5isFg5BjEeaFUfEgOgSL-g" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5isFhJBjEeaFUfEgOgSL-g" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5isFhZBjEeaFUfEgOgSL-g" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5isFhpBjEeaFUfEgOgSL-g" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5isFh5BjEeaFUfEgOgSL-g" y="5"/>
+    </children>
+    <element xmi:type="uml:Actor" href="model.uml#_5iqQUJBjEeaFUfEgOgSL-g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5irecZBjEeaFUfEgOgSL-g" x="59" y="313"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_yhOf0ZBhEeaFUfEgOgSL-g" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_yhOf0pBhEeaFUfEgOgSL-g"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_yhOf05BhEeaFUfEgOgSL-g">
+    <owner xmi:type="uml:Model" href="model.uml#_bFkqgJBdEeaFUfEgOgSL-g"/>
+  </styles>
+  <element xmi:type="uml:Model" href="model.uml#_bFkqgJBdEeaFUfEgOgSL-g"/>
+</notation:Diagram>
