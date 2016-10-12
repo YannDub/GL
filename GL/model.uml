@@ -244,6 +244,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_5VcY4pBREea8_42pv1Np_g" name="validation de commande" type="_3dQvQJBREea8_42pv1Np_g" association="_5Vbx0JBREea8_42pv1Np_g"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_5VcY45BREea8_42pv1Np_g" name="demande des suppléments" type="_fcHqcJBREea8_42pv1Np_g" association="_5Vbx0JBREea8_42pv1Np_g"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_WumoEJBOEeaPGac_G499bg" name="Visiteur"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_aLsaAJBOEeaPGac_G499bg" name="ChangeObjectif">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_i4LpAJBOEeaPGac_G499bg" name="Se connecte"/>
