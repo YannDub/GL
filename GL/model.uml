@@ -380,6 +380,34 @@
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_D-ZosJBfEeaw7-b-kIC1VQ" name="Envoi des commandes en cuisine"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Siiu8JBcEeaPGac_G499bg" name="Membre"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_aKibEJBcEeaPGac_G499bg" name="MotDePasse">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l-i0oJBcEeaPGac_G499bg" name="Se connecte"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5rrGkJBcEeaPGac_G499bg" name="Change son mot de passe">
+      <include xmi:type="uml:Include" xmi:id="_BbtUYJBdEeaPGac_G499bg" addition="__G1uwJBcEeaPGac_G499bg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__G1uwJBcEeaPGac_G499bg" name="Confirme son mot de passe"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Eah18JBdEeaPGac_G499bg" name="Récupère son mot de passe">
+      <include xmi:type="uml:Include" xmi:id="_UzEVMJBeEeaPGac_G499bg" addition="_5rrGkJBcEeaPGac_G499bg"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_TDAYsJBREeaPGac_G499bg" name="GestionCompte">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_bL39QJBREeaPGac_G499bg" name="Visualise son profil"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_fwDTEJBREeaPGac_G499bg" name="Se connecte"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_3MJCsJBUEeaPGac_G499bg" name="Visualise l'historique">
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EiEiAZBVEeaPGac_G499bg" name="ExtensionPoint1"/>
+        <include xmi:type="uml:Include" xmi:id="_9yqqwJBUEeaPGac_G499bg" addition="_bL39QJBREeaPGac_G499bg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_BUvDUJBVEeaPGac_G499bg" name="Passer une commande">
+        <extend xmi:type="uml:Extend" xmi:id="_EiEiAJBVEeaPGac_G499bg" extendedCase="_3MJCsJBUEeaPGac_G499bg" extensionLocation="_EiEiAZBVEeaPGac_G499bg"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_C_swUZBVEeaPGac_G499bg" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Xg15IJBVEeaPGac_G499bg" name="Recommende une ancienne commande"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_2vLdEJBYEeaPGac_G499bg" name="S'incrit à la newsletter"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_H6wYQJBZEeaPGac_G499bg" name="Se désinscrire de la newsteletter">
+        <include xmi:type="uml:Include" xmi:id="_WHaEMJBZEeaPGac_G499bg" addition="_2vLdEJBYEeaPGac_G499bg"/>
+      </packagedElement>
+    </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_EtH3QJBcEeaw7-b-kIC1VQ" memberEnd="_EtIeUpBcEeaw7-b-kIC1VQ _EtIeU5BcEeaw7-b-kIC1VQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EtIeUJBcEeaw7-b-kIC1VQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EtIeUZBcEeaw7-b-kIC1VQ" key="nature" value="UML_Nature"/>
