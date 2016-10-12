@@ -369,16 +369,10 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="_x2xcUJBbEeaw7-b-kIC1VQ" name="Pizzaïolo"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_1ccigJBbEeaw7-b-kIC1VQ" name="Envoi des commandes en cuisine">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_427FUJBbEeaw7-b-kIC1VQ" name="Réception de commande">
-      <include xmi:type="uml:Include" xmi:id="_OIwj4JBfEeaw7-b-kIC1VQ" addition="_D-ZosJBfEeaw7-b-kIC1VQ"/>
+      <include xmi:type="uml:Include" xmi:id="_Yu7YsJBcEeaw7-b-kIC1VQ" addition="_IG5PcJBcEeaw7-b-kIC1VQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_IG5PcJBcEeaw7-b-kIC1VQ" name="Ajout de la commande dans la file d'attente">
-      <include xmi:type="uml:Include" xmi:id="_x7Mh8JBeEeaw7-b-kIC1VQ" addition="_427FUJBbEeaw7-b-kIC1VQ"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_IG5PcJBcEeaw7-b-kIC1VQ" name="Ajout de la commande dans la file d'attente"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_MIs4AJBcEeaw7-b-kIC1VQ" name="Traitement des commandes dans l'ordre d'arrivé"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZelpIJBeEeaw7-b-kIC1VQ" name="Mise à disposition des pizzas pour la livraison / retrait">
-      <include xmi:type="uml:Include" xmi:id="_mJsp0JBeEeaw7-b-kIC1VQ" addition="_MIs4AJBcEeaw7-b-kIC1VQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_D-ZosJBfEeaw7-b-kIC1VQ" name="Envoi des commandes en cuisine"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_EtH3QJBcEeaw7-b-kIC1VQ" memberEnd="_EtIeUpBcEeaw7-b-kIC1VQ _EtIeU5BcEeaw7-b-kIC1VQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EtIeUJBcEeaw7-b-kIC1VQ" source="org.eclipse.papyrus">
@@ -393,13 +387,5 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Xso1QpBcEeaw7-b-kIC1VQ" name="traitement des commandes dans l'ordre d'arrivé" type="_MIs4AJBcEeaw7-b-kIC1VQ" association="_XsoOMJBcEeaw7-b-kIC1VQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Xso1Q5BcEeaw7-b-kIC1VQ" name="pizzaïolo" type="_x2xcUJBbEeaw7-b-kIC1VQ" association="_XsoOMJBcEeaw7-b-kIC1VQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_AZ1VwJBfEeaw7-b-kIC1VQ" name="Equipier"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Fo1KMJBfEeaw7-b-kIC1VQ" memberEnd="_Fo1xQpBfEeaw7-b-kIC1VQ _Fo1xQ5BfEeaw7-b-kIC1VQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fo1xQJBfEeaw7-b-kIC1VQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fo1xQZBfEeaw7-b-kIC1VQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Fo1xQpBfEeaw7-b-kIC1VQ" name="envoi des commandes en cuisine" type="_D-ZosJBfEeaw7-b-kIC1VQ" association="_Fo1KMJBfEeaw7-b-kIC1VQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Fo1xQ5BfEeaw7-b-kIC1VQ" name="equipier" type="_AZ1VwJBfEeaw7-b-kIC1VQ" association="_Fo1KMJBfEeaw7-b-kIC1VQ"/>
   </packagedElement>
 </uml:Model>
