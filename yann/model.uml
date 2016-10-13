@@ -72,13 +72,16 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_RN3rEJFZEeayIoJcmAZHgg" name="LignesBrisee">
     <generalization xmi:type="uml:Generalization" xmi:id="_Vd1EYJFZEeayIoJcmAZHgg" general="_D2MfUJFZEeayIoJcmAZHgg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_bD7xQJFZEeayIoJcmAZHgg" memberEnd="_bEUy0JFZEeayIoJcmAZHgg _bEZrUJFZEeayIoJcmAZHgg">
+  <packagedElement xmi:type="uml:Association" xmi:id="_bD7xQJFZEeayIoJcmAZHgg" visibility="public" memberEnd="_bEUy0JFZEeayIoJcmAZHgg _bEZrUJFZEeayIoJcmAZHgg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bERvgJFZEeayIoJcmAZHgg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bEULwJFZEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_bEZrUJFZEeayIoJcmAZHgg" name="restaurant" type="_smSqMJFYEeayIoJcmAZHgg" association="_bD7xQJFZEeayIoJcmAZHgg"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_bEUy0JFZEeayIoJcmAZHgg" name="donneecomptable" type="_3Lo4QJFYEeayIoJcmAZHgg" aggregation="composite" association="_bD7xQJFZEeayIoJcmAZHgg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jxxEEJFZEeayIoJcmAZHgg" value="1"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bEZrUJFZEeayIoJcmAZHgg" name="restaurant" type="_smSqMJFYEeayIoJcmAZHgg" aggregation="composite" association="_bD7xQJFZEeayIoJcmAZHgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_je4ngJFdEeayIoJcmAZHgg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jfHRAJFdEeayIoJcmAZHgg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bEUy0JFZEeayIoJcmAZHgg" name="donneecomptable" type="_3Lo4QJFYEeayIoJcmAZHgg" association="_bD7xQJFZEeayIoJcmAZHgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jxxEEJFZEeayIoJcmAZHgg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jyYIEJFZEeayIoJcmAZHgg" value="*"/>
     </ownedEnd>
   </packagedElement>
