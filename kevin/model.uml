@@ -1,2 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_IjCBwJBwEeaPgpWPnO4pMw" name="RootElement"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_s9QmEJETEeawOu_vOMjGvQ" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_VWghwJEUEeawOu_vOMjGvQ" name="Gérant"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_XClpEJEUEeawOu_vOMjGvQ" name="Gestion des stocks">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_a4_58JEUEeawOu_vOMjGvQ" name="Ajout d'un produit au stock"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_f4kyUJEUEeawOu_vOMjGvQ" name="Inscription des informations sur la fiche produit">
+      <extend xmi:type="uml:Extend" xmi:id="_sMJcwJEUEeawOu_vOMjGvQ" extendedCase="_qzEJ8JEUEeawOu_vOMjGvQ" extensionLocation="_sMKD0JEUEeawOu_vOMjGvQ"/>
+      <include xmi:type="uml:Include" xmi:id="_kgrl4JEUEeawOu_vOMjGvQ" addition="_a4_58JEUEeawOu_vOMjGvQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qzEJ8JEUEeawOu_vOMjGvQ" name="Ajout d'une photo au produit">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_sMKD0JEUEeawOu_vOMjGvQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vIYkYJEUEeawOu_vOMjGvQ" name="Recommander du stock pour ce produit">
+      <include xmi:type="uml:Include" xmi:id="_xCReMJEUEeawOu_vOMjGvQ" addition="_f4kyUJEUEeawOu_vOMjGvQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_epKY4JEUEeawOu_vOMjGvQ" memberEnd="_epUw8JEUEeawOu_vOMjGvQ _epVYAJEUEeawOu_vOMjGvQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_epMOEJEUEeawOu_vOMjGvQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_epMOEZEUEeawOu_vOMjGvQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_epUw8JEUEeawOu_vOMjGvQ" name="ajout d'un produit au stock" type="_a4_58JEUEeawOu_vOMjGvQ" association="_epKY4JEUEeawOu_vOMjGvQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_epVYAJEUEeawOu_vOMjGvQ" name="gérant" type="_VWghwJEUEeawOu_vOMjGvQ" association="_epKY4JEUEeawOu_vOMjGvQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_1DTDoJEUEeawOu_vOMjGvQ" name="Gérant"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_2R6L0JEUEeawOu_vOMjGvQ" name="Equipier"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6xv0MJEUEeawOu_vOMjGvQ" name="Consulter un produit en stock">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DL3g0JEVEeawOu_vOMjGvQ" name="Accès à la liste des produits en stock"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HR0CgJEVEeawOu_vOMjGvQ" name="Ajout d'un produit en stock"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YEFs4JEVEeawOu_vOMjGvQ" name="Recommander du stock"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aRoigJEVEeawOu_vOMjGvQ" name="Modifier la fiche produit">
+      <include xmi:type="uml:Include" xmi:id="_cJCJAJEVEeawOu_vOMjGvQ" addition="_DL3g0JEVEeawOu_vOMjGvQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FWbT4JEVEeawOu_vOMjGvQ" memberEnd="_FWb68pEVEeawOu_vOMjGvQ _FWb685EVEeawOu_vOMjGvQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FWb68JEVEeawOu_vOMjGvQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FWb68ZEVEeawOu_vOMjGvQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FWb68pEVEeawOu_vOMjGvQ" name="accès à la liste des produits en stock" type="_DL3g0JEVEeawOu_vOMjGvQ" association="_FWbT4JEVEeawOu_vOMjGvQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FWb685EVEeawOu_vOMjGvQ" name="gérant" type="_1DTDoJEUEeawOu_vOMjGvQ" association="_FWbT4JEVEeawOu_vOMjGvQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_F5PtEJEVEeawOu_vOMjGvQ" memberEnd="_F5QUIpEVEeawOu_vOMjGvQ _F5QUI5EVEeawOu_vOMjGvQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F5QUIJEVEeawOu_vOMjGvQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F5QUIZEVEeawOu_vOMjGvQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_F5QUIpEVEeawOu_vOMjGvQ" name="accès à la liste des produits en stock" type="_DL3g0JEVEeawOu_vOMjGvQ" association="_F5PtEJEVEeawOu_vOMjGvQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_F5QUI5EVEeawOu_vOMjGvQ" name="equipier" type="_2R6L0JEUEeawOu_vOMjGvQ" association="_F5PtEJEVEeawOu_vOMjGvQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Jfy9AJEVEeawOu_vOMjGvQ" memberEnd="_JfzkEpEVEeawOu_vOMjGvQ _Jf0LIJEVEeawOu_vOMjGvQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JfzkEJEVEeawOu_vOMjGvQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JfzkEZEVEeawOu_vOMjGvQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JfzkEpEVEeawOu_vOMjGvQ" name="ajout d'un produit en stock" type="_HR0CgJEVEeawOu_vOMjGvQ" association="_Jfy9AJEVEeawOu_vOMjGvQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Jf0LIJEVEeawOu_vOMjGvQ" name="gérant" type="_1DTDoJEUEeawOu_vOMjGvQ" association="_Jfy9AJEVEeawOu_vOMjGvQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dlccoJEVEeawOu_vOMjGvQ" memberEnd="_dldDsZEVEeawOu_vOMjGvQ _dldDspEVEeawOu_vOMjGvQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dlccoZEVEeawOu_vOMjGvQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dldDsJEVEeawOu_vOMjGvQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dldDsZEVEeawOu_vOMjGvQ" name="gérant" type="_1DTDoJEUEeawOu_vOMjGvQ" association="_dlccoJEVEeawOu_vOMjGvQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dldDspEVEeawOu_vOMjGvQ" name="recommander du stock" type="_YEFs4JEVEeawOu_vOMjGvQ" association="_dlccoJEVEeawOu_vOMjGvQ"/>
+  </packagedElement>
+</uml:Model>
