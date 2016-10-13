@@ -125,4 +125,39 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_hBE9wJFcEeayIoJcmAZHgg" name="Communications"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="__nBPgJFgEeayIoJcmAZHgg" name="Commande">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mWYcQJFhEeayIoJcmAZHgg" name="article" type="_gPA1YJFhEeayIoJcmAZHgg" aggregation="composite" association="_mWWnEJFhEeayIoJcmAZHgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o-WkEJFhEeayIoJcmAZHgg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o-bckJFhEeayIoJcmAZHgg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DE4dgJFhEeayIoJcmAZHgg" name="FileAttente"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Gk1WMJFhEeayIoJcmAZHgg" name="Moniteur"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_M-tpYJFhEeayIoJcmAZHgg" memberEnd="_M-52oJFhEeayIoJcmAZHgg _M-6dsJFhEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M-5PkJFhEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M-5PkZFhEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_M-6dsJFhEeayIoJcmAZHgg" name="moniteur" type="_Gk1WMJFhEeayIoJcmAZHgg" association="_M-tpYJFhEeayIoJcmAZHgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ajjucJFhEeayIoJcmAZHgg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ajn_4JFhEeayIoJcmAZHgg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_M-52oJFhEeayIoJcmAZHgg" name="fileattente" type="_DE4dgJFhEeayIoJcmAZHgg" aggregation="composite" association="_M-tpYJFhEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N7Xe4JFhEeayIoJcmAZHgg" memberEnd="_N7ZUEJFhEeayIoJcmAZHgg _N7ZUEZFhEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N7YtAJFhEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N7YtAZFhEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N7ZUEZFhEeayIoJcmAZHgg" name="fileattente" type="_DE4dgJFhEeayIoJcmAZHgg" association="_N7Xe4JFhEeayIoJcmAZHgg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N7ZUEJFhEeayIoJcmAZHgg" name="commande" type="__nBPgJFgEeayIoJcmAZHgg" aggregation="composite" association="_N7Xe4JFhEeayIoJcmAZHgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TGmNoJFhEeayIoJcmAZHgg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TGxz0JFhEeayIoJcmAZHgg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gPA1YJFhEeayIoJcmAZHgg" name="Article"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mWWnEJFhEeayIoJcmAZHgg" memberEnd="_mWYcQJFhEeayIoJcmAZHgg _mWZDUJFhEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mWX1MJFhEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mWX1MZFhEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mWZDUJFhEeayIoJcmAZHgg" name="commande" type="__nBPgJFgEeayIoJcmAZHgg" association="_mWWnEJFhEeayIoJcmAZHgg"/>
+  </packagedElement>
 </uml:Model>
