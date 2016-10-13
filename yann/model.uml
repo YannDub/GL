@@ -88,4 +88,38 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_r9ehQJFZEeayIoJcmAZHgg" name="donneecomptable" type="_3Lo4QJFYEeayIoJcmAZHgg" association="_r9csEJFZEeayIoJcmAZHgg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JgjIIJFbEeayIoJcmAZHgg" name="Promotion">
+    <generalization xmi:type="uml:Generalization" xmi:id="_lddpgJFcEeayIoJcmAZHgg" general="_hBE9wJFcEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TSI-AJFbEeayIoJcmAZHgg" name="Carte">
+    <generalization xmi:type="uml:Generalization" xmi:id="_mBEs4JFcEeayIoJcmAZHgg" general="_hBE9wJFcEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_e4G7kJFbEeayIoJcmAZHgg" name="Nouvelle">
+    <generalization xmi:type="uml:Generalization" xmi:id="_kvzSQJFcEeayIoJcmAZHgg" general="_hBE9wJFcEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EpyYEJFcEeayIoJcmAZHgg" name="Pizza"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HYmuwJFcEeayIoJcmAZHgg" memberEnd="_HYnV0pFcEeayIoJcmAZHgg _HYn84JFcEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HYnV0JFcEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HYnV0ZFcEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HYn84JFcEeayIoJcmAZHgg" name="promotion" type="_JgjIIJFbEeayIoJcmAZHgg" association="_HYmuwJFcEeayIoJcmAZHgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NpeP4JFcEeayIoJcmAZHgg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NpihUJFcEeayIoJcmAZHgg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HYnV0pFcEeayIoJcmAZHgg" name="pizza" type="_EpyYEJFcEeayIoJcmAZHgg" association="_HYmuwJFcEeayIoJcmAZHgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K7SLUJFcEeayIoJcmAZHgg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K7UAgJFcEeayIoJcmAZHgg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Sw9uIJFcEeayIoJcmAZHgg" memberEnd="_Sw-VMpFcEeayIoJcmAZHgg _Sw-8QJFcEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Sw-VMJFcEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Sw-VMZFcEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Sw-8QJFcEeayIoJcmAZHgg" name="carte" type="_TSI-AJFbEeayIoJcmAZHgg" association="_Sw9uIJFcEeayIoJcmAZHgg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Sw-VMpFcEeayIoJcmAZHgg" name="pizza" type="_EpyYEJFcEeayIoJcmAZHgg" aggregation="composite" association="_Sw9uIJFcEeayIoJcmAZHgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZJ-eoJFcEeayIoJcmAZHgg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZKn-4JFcEeayIoJcmAZHgg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hBE9wJFcEeayIoJcmAZHgg" name="Communications"/>
 </uml:Model>
