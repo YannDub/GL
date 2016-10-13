@@ -43,4 +43,49 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="__cI7YpFDEeayIoJcmAZHgg" name="communiquer" type="_3JpgwJFDEeayIoJcmAZHgg" association="__cIUUJFDEeayIoJcmAZHgg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="__cJicJFDEeayIoJcmAZHgg" name="chargé de communication" type="_7uFxwJFCEeayIoJcmAZHgg" association="__cIUUJFDEeayIoJcmAZHgg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_smSqMJFYEeayIoJcmAZHgg" name="Restaurant"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vd2tMJFYEeayIoJcmAZHgg" name="ChiffreAffaire">
+    <generalization xmi:type="uml:Generalization" xmi:id="_8jAlkJFYEeayIoJcmAZHgg" general="_3Lo4QJFYEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zGqm8JFYEeayIoJcmAZHgg" name="Objectif">
+    <generalization xmi:type="uml:Generalization" xmi:id="_7-lp4JFYEeayIoJcmAZHgg" general="_3Lo4QJFYEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3Lo4QJFYEeayIoJcmAZHgg" name="DonneeComptable">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_r9d6MZFZEeayIoJcmAZHgg" name="rendu" type="_BLTmYJFZEeayIoJcmAZHgg" aggregation="composite" association="_r9csEJFZEeayIoJcmAZHgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wOEzwJFZEeayIoJcmAZHgg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wOJFMJFZEeayIoJcmAZHgg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BLTmYJFZEeayIoJcmAZHgg" name="Rendu"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_D2MfUJFZEeayIoJcmAZHgg" name="Diagramme">
+    <generalization xmi:type="uml:Generalization" xmi:id="_IRcioJFZEeayIoJcmAZHgg" general="_BLTmYJFZEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_F2_5cJFZEeayIoJcmAZHgg" name="Tableau">
+    <generalization xmi:type="uml:Generalization" xmi:id="_I5LRAJFZEeayIoJcmAZHgg" general="_BLTmYJFZEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LjneAJFZEeayIoJcmAZHgg" name="Circulaire">
+    <generalization xmi:type="uml:Generalization" xmi:id="_UjgKIJFZEeayIoJcmAZHgg" general="_D2MfUJFZEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NGJAsJFZEeayIoJcmAZHgg" name="Bande">
+    <generalization xmi:type="uml:Generalization" xmi:id="_VE0HcJFZEeayIoJcmAZHgg" general="_D2MfUJFZEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RN3rEJFZEeayIoJcmAZHgg" name="LignesBrisee">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Vd1EYJFZEeayIoJcmAZHgg" general="_D2MfUJFZEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bD7xQJFZEeayIoJcmAZHgg" memberEnd="_bEUy0JFZEeayIoJcmAZHgg _bEZrUJFZEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bERvgJFZEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bEULwJFZEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bEZrUJFZEeayIoJcmAZHgg" name="restaurant" type="_smSqMJFYEeayIoJcmAZHgg" association="_bD7xQJFZEeayIoJcmAZHgg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bEUy0JFZEeayIoJcmAZHgg" name="donneecomptable" type="_3Lo4QJFYEeayIoJcmAZHgg" aggregation="composite" association="_bD7xQJFZEeayIoJcmAZHgg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jxxEEJFZEeayIoJcmAZHgg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jyYIEJFZEeayIoJcmAZHgg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r9csEJFZEeayIoJcmAZHgg" memberEnd="_r9d6MZFZEeayIoJcmAZHgg _r9ehQJFZEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r9dTIJFZEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r9d6MJFZEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r9ehQJFZEeayIoJcmAZHgg" name="donneecomptable" type="_3Lo4QJFYEeayIoJcmAZHgg" association="_r9csEJFZEeayIoJcmAZHgg"/>
+  </packagedElement>
 </uml:Model>
