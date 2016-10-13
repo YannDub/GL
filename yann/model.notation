@@ -88,7 +88,7 @@
     </children>
     <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_BJdOQZFDEeayIoJcmAZHgg"/>
     <element xmi:type="uml:Package" href="model.uml#_BJYVwJFDEeayIoJcmAZHgg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BJdOQpFDEeayIoJcmAZHgg" x="286" y="13" width="541" height="364"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BJdOQpFDEeayIoJcmAZHgg" x="286" y="13" width="552" height="364"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_6qkfQZFCEeayIoJcmAZHgg" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_6qkfQpFCEeayIoJcmAZHgg"/>
