@@ -1,2 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_IjCBwJBwEeaPgpWPnO4pMw" name="RootElement"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_IjCBwJBwEeaPgpWPnO4pMw" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_7uFxwJFCEeayIoJcmAZHgg" name="Chargé de communication"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_BJYVwJFDEeayIoJcmAZHgg" name="Communication carte / promo">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KjVuwJFDEeayIoJcmAZHgg" name="Se connecte"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qpbhcJFDEeayIoJcmAZHgg" name="Mettre à jour carte">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uQ3FsJFEEeayIoJcmAZHgg" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zaE3sJFDEeayIoJcmAZHgg" name="Ajouter promotion pour tous">
+      <include xmi:type="uml:Include" xmi:id="_Q-ZRMJFEEeayIoJcmAZHgg" addition="_Ho1QAJFEEeayIoJcmAZHgg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3JpgwJFDEeayIoJcmAZHgg" name="Communiquer">
+      <extend xmi:type="uml:Extend" xmi:id="_uQmnAJFEEeayIoJcmAZHgg" extendedCase="_qpbhcJFDEeayIoJcmAZHgg" extensionLocation="_uQ3FsJFEEeayIoJcmAZHgg"/>
+      <include xmi:type="uml:Include" xmi:id="_QIOeMJFEEeayIoJcmAZHgg" addition="_Ho1QAJFEEeayIoJcmAZHgg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ho1QAJFEEeayIoJcmAZHgg" name="Générer un code"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9p798JFDEeayIoJcmAZHgg" memberEnd="_9qEg0JFDEeayIoJcmAZHgg _9qFH4JFDEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9qCroJFDEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9qDSsJFDEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9qEg0JFDEeayIoJcmAZHgg" name="se connecte" type="_KjVuwJFDEeayIoJcmAZHgg" association="_9p798JFDEeayIoJcmAZHgg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9qFH4JFDEeayIoJcmAZHgg" name="chargé de communication" type="_7uFxwJFCEeayIoJcmAZHgg" association="_9p798JFDEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-N7b0JFDEeayIoJcmAZHgg" memberEnd="_-N8C4pFDEeayIoJcmAZHgg _-N8p8JFDEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-N8C4JFDEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-N8C4ZFDEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-N8C4pFDEeayIoJcmAZHgg" name="mettre à jour carte" type="_qpbhcJFDEeayIoJcmAZHgg" association="_-N7b0JFDEeayIoJcmAZHgg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-N8p8JFDEeayIoJcmAZHgg" name="chargé de communication" type="_7uFxwJFCEeayIoJcmAZHgg" association="_-N7b0JFDEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-6JBkJFDEeayIoJcmAZHgg" memberEnd="_-6K2wJFDEeayIoJcmAZHgg _-6K2wZFDEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-6KPsJFDEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-6KPsZFDEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-6K2wJFDEeayIoJcmAZHgg" name="ajouter promotion pour tous" type="_zaE3sJFDEeayIoJcmAZHgg" association="_-6JBkJFDEeayIoJcmAZHgg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-6K2wZFDEeayIoJcmAZHgg" name="chargé de communication" type="_7uFxwJFCEeayIoJcmAZHgg" association="_-6JBkJFDEeayIoJcmAZHgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__cIUUJFDEeayIoJcmAZHgg" memberEnd="__cI7YpFDEeayIoJcmAZHgg __cJicJFDEeayIoJcmAZHgg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__cI7YJFDEeayIoJcmAZHgg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__cI7YZFDEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__cI7YpFDEeayIoJcmAZHgg" name="communiquer" type="_3JpgwJFDEeayIoJcmAZHgg" association="__cIUUJFDEeayIoJcmAZHgg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__cJicJFDEeayIoJcmAZHgg" name="chargé de communication" type="_7uFxwJFCEeayIoJcmAZHgg" association="__cIUUJFDEeayIoJcmAZHgg"/>
+  </packagedElement>
+</uml:Model>
