@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_IjCBwJBwEeaPgpWPnO4pMw" name="RootElement"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_IjCBwJBwEeaPgpWPnO4pMw" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_4v5G8JIhEeaAYKPOeaj2oA" name="Compte">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NvBMQJIiEeaAYKPOeaj2oA" name="profil" type="_LF2KkJIiEeaAYKPOeaj2oA" association="_Nu-wAJIiEeaAYKPOeaj2oA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YM3rMpIiEeaAYKPOeaj2oA" name="historique" type="_WIv3UJIiEeaAYKPOeaj2oA" association="_YM3EIJIiEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LF2KkJIiEeaAYKPOeaj2oA" name="Profil"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Nu-wAJIiEeaAYKPOeaj2oA" memberEnd="_NvBMQJIiEeaAYKPOeaj2oA _NvBzUJIiEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Nu_-IJIiEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NvAlMJIiEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NvBzUJIiEeaAYKPOeaj2oA" name="compte" type="_4v5G8JIhEeaAYKPOeaj2oA" association="_Nu-wAJIiEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WIv3UJIiEeaAYKPOeaj2oA" name="Historique">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qMwYMZIiEeaAYKPOeaj2oA" name="commande" type="_bQ75IJIiEeaAYKPOeaj2oA" aggregation="composite" association="_qMvKEJIiEeaAYKPOeaj2oA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uCLxoJIiEeaAYKPOeaj2oA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uCNm0JIiEeaAYKPOeaj2oA" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YM3EIJIiEeaAYKPOeaj2oA" memberEnd="_YM3rMpIiEeaAYKPOeaj2oA _YM4SQJIiEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YM3rMJIiEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YM3rMZIiEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YM4SQJIiEeaAYKPOeaj2oA" name="compte" type="_4v5G8JIhEeaAYKPOeaj2oA" association="_YM3EIJIiEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bQ75IJIiEeaAYKPOeaj2oA" name="Commande"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qMvKEJIiEeaAYKPOeaj2oA" memberEnd="_qMwYMZIiEeaAYKPOeaj2oA _qMw_QJIiEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qMvxIJIiEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qMwYMJIiEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qMw_QJIiEeaAYKPOeaj2oA" name="historique" type="_WIv3UJIiEeaAYKPOeaj2oA" association="_qMvKEJIiEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zGIMoJIiEeaAYKPOeaj2oA" name="CompteAdministrateur">
+    <generalization xmi:type="uml:Generalization" xmi:id="_5PEg0JIiEeaAYKPOeaj2oA" general="_4v5G8JIhEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__7XPIJIhEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__7ZEUJIhEeaAYKPOeaj2oA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
