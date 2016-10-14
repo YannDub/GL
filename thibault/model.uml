@@ -33,6 +33,56 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_zGIMoJIiEeaAYKPOeaj2oA" name="CompteAdministrateur">
     <generalization xmi:type="uml:Generalization" xmi:id="_5PEg0JIiEeaAYKPOeaj2oA" general="_4v5G8JIhEeaAYKPOeaj2oA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__v-FMJImEeaAYKPOeaj2oA" name="Carte">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CuOmEpInEeaAYKPOeaj2oA" name="pizza" type="_AyVhIJInEeaAYKPOeaj2oA" association="_CuN_AJInEeaAYKPOeaj2oA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GjKQQJInEeaAYKPOeaj2oA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GjMFcJInEeaAYKPOeaj2oA" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AyVhIJInEeaAYKPOeaj2oA" name="Pizza"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CuN_AJInEeaAYKPOeaj2oA" visibility="private" memberEnd="_CuOmEpInEeaAYKPOeaj2oA _CuPNIJInEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CuOmEJInEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CuOmEZInEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CuPNIJInEeaAYKPOeaj2oA" name="carte" type="__v-FMJImEeaAYKPOeaj2oA" association="_CuN_AJInEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IhXpYJInEeaAYKPOeaj2oA" name="Pizzeria"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Qv5xEJInEeaAYKPOeaj2oA" name="Commande">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SVhrEJInEeaAYKPOeaj2oA" name="pizza" type="_AyVhIJInEeaAYKPOeaj2oA" aggregation="composite" association="_SVhEAJInEeaAYKPOeaj2oA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TyNEcJInEeaAYKPOeaj2oA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TyOSkJInEeaAYKPOeaj2oA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cz8KsJInEeaAYKPOeaj2oA" name="pizzeria" type="_IhXpYJInEeaAYKPOeaj2oA" association="_cz7joJInEeaAYKPOeaj2oA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_37Mr4ZInEeaAYKPOeaj2oA" name="paiement" type="_txPZUJInEeaAYKPOeaj2oA" association="_37LdwJInEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SVhEAJInEeaAYKPOeaj2oA" memberEnd="_SVhrEJInEeaAYKPOeaj2oA _SViSIJInEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SVhEAZInEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SVhEApInEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SViSIJInEeaAYKPOeaj2oA" name="commande" type="_Qv5xEJInEeaAYKPOeaj2oA" association="_SVhEAJInEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cz7joJInEeaAYKPOeaj2oA" memberEnd="_cz8KsJInEeaAYKPOeaj2oA _cz8KsZInEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cz7joZInEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cz7jopInEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cz8KsZInEeaAYKPOeaj2oA" name="commande" type="_Qv5xEJInEeaAYKPOeaj2oA" association="_cz7joJInEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_txPZUJInEeaAYKPOeaj2oA" name="Paiement"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_37LdwJInEeaAYKPOeaj2oA" memberEnd="_37Mr4ZInEeaAYKPOeaj2oA _37Mr4pInEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_37ME0JInEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_37Mr4JInEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_37Mr4pInEeaAYKPOeaj2oA" name="commande" type="_Qv5xEJInEeaAYKPOeaj2oA" association="_37LdwJInEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5LG0kJInEeaAYKPOeaj2oA" name="CB">
+    <generalization xmi:type="uml:Generalization" xmi:id="_BDo3EJIoEeaAYKPOeaj2oA" general="_txPZUJInEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7OLfkJInEeaAYKPOeaj2oA" name="Chèque">
+    <generalization xmi:type="uml:Generalization" xmi:id="_BkkZ4JIoEeaAYKPOeaj2oA" general="_txPZUJInEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8YQtEJInEeaAYKPOeaj2oA" name="Espèce">
+    <generalization xmi:type="uml:Generalization" xmi:id="_CAx0wJIoEeaAYKPOeaj2oA" general="_txPZUJInEeaAYKPOeaj2oA"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__7XPIJIhEeaAYKPOeaj2oA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__7ZEUJIhEeaAYKPOeaj2oA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
