@@ -105,6 +105,40 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_tXKIkJIrEeaAYKPOeaj2oA" name="restaurant" type="_rtSAsJIrEeaAYKPOeaj2oA" association="_tXI6cJIrEeaAYKPOeaj2oA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z2ODEJIsEeaAYKPOeaj2oA" name="Commande">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kBF7o5IsEeaAYKPOeaj2oA" name="pizza" type="_aqEh4JIsEeaAYKPOeaj2oA" association="_kBF7oJIsEeaAYKPOeaj2oA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k-btoJIsEeaAYKPOeaj2oA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k-c7wJIsEeaAYKPOeaj2oA" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aqEh4JIsEeaAYKPOeaj2oA" name="Pizza">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_l9sLMpIsEeaAYKPOeaj2oA" name="supplément" type="_c6tu0JIsEeaAYKPOeaj2oA" association="_l9rkIJIsEeaAYKPOeaj2oA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mu-eMJIsEeaAYKPOeaj2oA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mu_sUJIsEeaAYKPOeaj2oA" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_c6tu0JIsEeaAYKPOeaj2oA" name="Supplément"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_e93SUJIsEeaAYKPOeaj2oA" name="Fromage">
+    <generalization xmi:type="uml:Generalization" xmi:id="_niV00JIsEeaAYKPOeaj2oA" general="_c6tu0JIsEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gKnZUJIsEeaAYKPOeaj2oA" name="Olives">
+    <generalization xmi:type="uml:Generalization" xmi:id="_oJIvEJIsEeaAYKPOeaj2oA" general="_c6tu0JIsEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hicu8JIsEeaAYKPOeaj2oA" name="Tomates">
+    <generalization xmi:type="uml:Generalization" xmi:id="_o4pgcJIsEeaAYKPOeaj2oA" general="_c6tu0JIsEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kBF7oJIsEeaAYKPOeaj2oA" memberEnd="_kBF7o5IsEeaAYKPOeaj2oA _kBF7pJIsEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kBF7oZIsEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kBF7opIsEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kBF7pJIsEeaAYKPOeaj2oA" name="commande" type="_Z2ODEJIsEeaAYKPOeaj2oA" association="_kBF7oJIsEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_l9rkIJIsEeaAYKPOeaj2oA" memberEnd="_l9sLMpIsEeaAYKPOeaj2oA _l9sLM5IsEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l9sLMJIsEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l9sLMZIsEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l9sLM5IsEeaAYKPOeaj2oA" name="pizza" type="_aqEh4JIsEeaAYKPOeaj2oA" association="_l9rkIJIsEeaAYKPOeaj2oA"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__7XPIJIhEeaAYKPOeaj2oA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__7ZEUJIhEeaAYKPOeaj2oA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
