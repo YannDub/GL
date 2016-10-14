@@ -83,6 +83,28 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_8YQtEJInEeaAYKPOeaj2oA" name="Espèce">
     <generalization xmi:type="uml:Generalization" xmi:id="_CAx0wJIoEeaAYKPOeaj2oA" general="_txPZUJInEeaAYKPOeaj2oA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7MmD0JIqEeaAYKPOeaj2oA" name="Produit"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8Mrn0JIqEeaAYKPOeaj2oA" name="Stock">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-oUj0JIqEeaAYKPOeaj2oA" name="produit" type="_7MmD0JIqEeaAYKPOeaj2oA" association="_-oT8wJIqEeaAYKPOeaj2oA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AI_FUJIrEeaAYKPOeaj2oA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AJATcJIrEeaAYKPOeaj2oA" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-oT8wJIqEeaAYKPOeaj2oA" memberEnd="_-oUj0JIqEeaAYKPOeaj2oA _-oUj0ZIqEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-oT8wZIqEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-oT8wpIqEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-oUj0ZIqEeaAYKPOeaj2oA" name="stock" type="_8Mrn0JIqEeaAYKPOeaj2oA" association="_-oT8wJIqEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rtSAsJIrEeaAYKPOeaj2oA" name="Restaurant">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tXJhgpIrEeaAYKPOeaj2oA" name="stock" type="_8Mrn0JIqEeaAYKPOeaj2oA" association="_tXI6cJIrEeaAYKPOeaj2oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tXI6cJIrEeaAYKPOeaj2oA" memberEnd="_tXJhgpIrEeaAYKPOeaj2oA _tXKIkJIrEeaAYKPOeaj2oA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tXJhgJIrEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tXJhgZIrEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tXKIkJIrEeaAYKPOeaj2oA" name="restaurant" type="_rtSAsJIrEeaAYKPOeaj2oA" association="_tXI6cJIrEeaAYKPOeaj2oA"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__7XPIJIhEeaAYKPOeaj2oA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__7ZEUJIhEeaAYKPOeaj2oA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
