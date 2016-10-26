@@ -24,11 +24,13 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="_1DTDoJEUEeawOu_vOMjGvQ" name="Gérant"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_2R6L0JEUEeawOu_vOMjGvQ" name="Equipier"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_6xv0MJEUEeawOu_vOMjGvQ" name="Consulter un produit en stock">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_DL3g0JEVEeawOu_vOMjGvQ" name="Accès à la liste des produits en stock"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DL3g0JEVEeawOu_vOMjGvQ" name="Accès à la liste des produits en stock">
+      <extend xmi:type="uml:Extend" xmi:id="_F14LYJtaEeaPjfmS1YR7rA" extendedCase="_aRoigJEVEeawOu_vOMjGvQ" extensionLocation="_F17OsJtaEeaPjfmS1YR7rA"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_HR0CgJEVEeawOu_vOMjGvQ" name="Ajout d'un produit en stock"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_YEFs4JEVEeawOu_vOMjGvQ" name="Recommander du stock"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_aRoigJEVEeawOu_vOMjGvQ" name="Modifier la fiche produit">
-      <include xmi:type="uml:Include" xmi:id="_cJCJAJEVEeawOu_vOMjGvQ" addition="_DL3g0JEVEeawOu_vOMjGvQ"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_F17OsJtaEeaPjfmS1YR7rA" name="ExtensionPoint1"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_FWbT4JEVEeawOu_vOMjGvQ" memberEnd="_FWb68pEVEeawOu_vOMjGvQ _FWb685EVEeawOu_vOMjGvQ">
