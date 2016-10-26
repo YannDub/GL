@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_IjCBwJBwEeaPgpWPnO4pMw" name="RootElement">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_2nb5AJteEeaPjfmS1YR7rA">
+    <body>Type de compte permettant
+de gérer la carte, gérer le
+chiffre d'affaire, etc... C'est
+un compte &quot;privilégié&quot;</body>
+  </ownedComment>
   <packagedElement xmi:type="uml:Class" xmi:id="_4v5G8JIhEeaAYKPOeaj2oA" name="Compte">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_NvBMQJIiEeaAYKPOeaj2oA" name="profil" type="_LF2KkJIiEeaAYKPOeaj2oA" association="_Nu-wAJIiEeaAYKPOeaj2oA"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_YM3rMpIiEeaAYKPOeaj2oA" name="historique" type="_WIv3UJIiEeaAYKPOeaj2oA" association="_YM3EIJIiEeaAYKPOeaj2oA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_LF2KkJIiEeaAYKPOeaj2oA" name="Profil"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Nu-wAJIiEeaAYKPOeaj2oA" memberEnd="_NvBMQJIiEeaAYKPOeaj2oA _NvBzUJIiEeaAYKPOeaj2oA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Nu_-IJIiEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NvAlMJIiEeaAYKPOeaj2oA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_NvBzUJIiEeaAYKPOeaj2oA" name="compte" type="_4v5G8JIhEeaAYKPOeaj2oA" association="_Nu-wAJIiEeaAYKPOeaj2oA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_WIv3UJIiEeaAYKPOeaj2oA" name="Historique">
+  <packagedElement xmi:type="uml:Class" xmi:id="_WIv3UJIiEeaAYKPOeaj2oA" name="HistoriqueCommande">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_qMwYMZIiEeaAYKPOeaj2oA" name="commande" type="_bQ75IJIiEeaAYKPOeaj2oA" aggregation="composite" association="_qMvKEJIiEeaAYKPOeaj2oA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uCLxoJIiEeaAYKPOeaj2oA"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uCNm0JIiEeaAYKPOeaj2oA" value="*"/>
