@@ -132,7 +132,7 @@
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_DE4dgJFhEeayIoJcmAZHgg" name="FileAttente"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Gk1WMJFhEeayIoJcmAZHgg" name="Moniteur"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Gk1WMJFhEeayIoJcmAZHgg" name="MoniteurUtilisation"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_M-tpYJFhEeayIoJcmAZHgg" memberEnd="_M-52oJFhEeayIoJcmAZHgg _M-6dsJFhEeayIoJcmAZHgg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M-5PkJFhEeayIoJcmAZHgg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M-5PkZFhEeayIoJcmAZHgg" key="nature" value="UML_Nature"/>

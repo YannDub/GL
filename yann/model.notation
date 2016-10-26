@@ -952,7 +952,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gk5nrpFhEeayIoJcmAZHgg"/>
       </children>
       <element xmi:type="uml:Class" href="model.uml#_Gk1WMJFhEeayIoJcmAZHgg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gk4ZgZFhEeayIoJcmAZHgg" x="242" y="115"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gk4ZgZFhEeayIoJcmAZHgg" x="219" y="115"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_gPD4sJFhEeayIoJcmAZHgg" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_gPEfwJFhEeayIoJcmAZHgg" type="Class_NameLabel"/>
