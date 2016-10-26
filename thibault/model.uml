@@ -116,14 +116,8 @@ un compte &quot;privilégié&quot;</body>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_c6tu0JIsEeaAYKPOeaj2oA" name="Supplément"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_e93SUJIsEeaAYKPOeaj2oA" name="Fromage">
-    <generalization xmi:type="uml:Generalization" xmi:id="_niV00JIsEeaAYKPOeaj2oA" general="_c6tu0JIsEeaAYKPOeaj2oA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_gKnZUJIsEeaAYKPOeaj2oA" name="Olives">
+  <packagedElement xmi:type="uml:Class" xmi:id="_gKnZUJIsEeaAYKPOeaj2oA" name="Legume">
     <generalization xmi:type="uml:Generalization" xmi:id="_oJIvEJIsEeaAYKPOeaj2oA" general="_c6tu0JIsEeaAYKPOeaj2oA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_hicu8JIsEeaAYKPOeaj2oA" name="Tomates">
-    <generalization xmi:type="uml:Generalization" xmi:id="_o4pgcJIsEeaAYKPOeaj2oA" general="_c6tu0JIsEeaAYKPOeaj2oA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_kBF7oJIsEeaAYKPOeaj2oA" memberEnd="_kBF7o5IsEeaAYKPOeaj2oA _kBF7pJIsEeaAYKPOeaj2oA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kBF7oZIsEeaAYKPOeaj2oA" source="org.eclipse.papyrus">
