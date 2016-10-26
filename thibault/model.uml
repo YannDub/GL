@@ -46,7 +46,7 @@ un compte &quot;privilégié&quot;</body>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_IhXpYJInEeaAYKPOeaj2oA" name="Pizzeria"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_Qv5xEJInEeaAYKPOeaj2oA" name="Commande">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_SVhrEJInEeaAYKPOeaj2oA" name="pizza" type="_AyVhIJInEeaAYKPOeaj2oA" aggregation="composite" association="_SVhEAJInEeaAYKPOeaj2oA">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SVhrEJInEeaAYKPOeaj2oA" name="pizza" type="_AyVhIJInEeaAYKPOeaj2oA" association="_SVhEAJInEeaAYKPOeaj2oA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TyNEcJInEeaAYKPOeaj2oA" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TyOSkJInEeaAYKPOeaj2oA" value="*"/>
     </ownedAttribute>
