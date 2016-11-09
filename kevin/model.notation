@@ -175,7 +175,7 @@
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6xy3gZEUEeawOu_vOMjGvQ" diagramLink="_bARZIKZpEea2be0yd_-F2A"/>
       <element xmi:type="uml:Package" href="model.uml#_6xv0MJEUEeawOu_vOMjGvQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6xy3gpEUEeawOu_vOMjGvQ" x="261" y="37" width="693" height="335"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6xy3gpEUEeawOu_vOMjGvQ" x="261" y="37" width="693" height="262"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_0F4ZIZEUEeawOu_vOMjGvQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_0F4ZIpEUEeawOu_vOMjGvQ"/>

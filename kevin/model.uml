@@ -11,7 +11,7 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_1DTDoJEUEeawOu_vOMjGvQ" name="Gérant"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_6xv0MJEUEeawOu_vOMjGvQ" name="Consulter un produit en stock">
+  <packagedElement xmi:type="uml:Package" xmi:id="_6xv0MJEUEeawOu_vOMjGvQ" name="Gestion du stock">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_DL3g0JEVEeawOu_vOMjGvQ" name="Accès à la liste des produits en stock">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dHf5cKZrEea_YYJ-64hXwg" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_d-WB4KZrEea_YYJ-64hXwg" name="ExtensionPoint2"/>
