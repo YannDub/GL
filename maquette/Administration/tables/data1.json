@@ -1,0 +1,22 @@
+[
+    {
+        "date": "Janvier 2016",
+        "achats": "700e",
+        "ventes": "1500,60e"
+    },
+    {
+        "date": "Février 2016",
+        "achats": "340e",
+        "ventes": "1329,30e"
+    },
+    {
+        "date": "Mars 2016",
+        "achats": "873e",
+        "ventes": "987,20e"
+    },
+    {
+        "date": "Avril 2016",
+        "achats": "100e",
+        "ventes": "763,20e"
+    }
+]
